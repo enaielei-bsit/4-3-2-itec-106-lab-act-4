@@ -25,7 +25,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-    <title>BSIT 4-3 | ITEC 106 | Laboratory Activity 3 | PHP File Manipulation</title>
+    <title>BSIT 4-3 | ITEC 106 | Laboratory Activity 3 | PHP Contact Form</title>
 </head>
 <body>
     <div id="main-content">
