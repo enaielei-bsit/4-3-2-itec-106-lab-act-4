@@ -1,0 +1,5 @@
+# Hide files of type .png, .zip, .jpg, .gif and .doc from listing
+IndexIgnore *.json
+
+# Disable directory browsing 
+Options -Indexes

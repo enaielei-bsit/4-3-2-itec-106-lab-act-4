@@ -1,0 +1,8 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "google/apiclient": "^2.12",
+        "symfony/mime": "^5.4",
+        "egulias/email-validator": "^3.1"
+    }
+}
