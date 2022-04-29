@@ -95,10 +95,12 @@
             "auth_provider_x509_cert_url" => $_ENV["WEB_AUTH_PROVIDER_X509_CERT_URL"],
             "client_secret" => $_ENV["WEB_CLIENT_SECRET"],
             "redirect_uris" => [
-                $_ENV["WEB_REDIRECT_URIS_0"]
+                $_ENV["WEB_REDIRECT_URIS_0"],
+                $_ENV["WEB_REDIRECT_URIS_1"]
             ]
         )
     ));
+    $client->setRedirectUri($_ENV["WEB_REDIRECT_URIS_1"]);
     $client->setScopes(Gmail::GMAIL_COMPOSE, Gmail::GMAIL_READONLY);
     $client->setAccessType('offline');
     $client->setPrompt('select_account consent');
