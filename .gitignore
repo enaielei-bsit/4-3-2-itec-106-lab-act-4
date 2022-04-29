@@ -6,8 +6,8 @@ composer.phar
 # composer.lock
 
 # Google API Client
-credentials.json
-token.json
+/credentials.json
+/token.json
 
 # Environment Variables
-.env
+/.env
